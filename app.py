@@ -19,7 +19,8 @@ for i in X:
   max_value = int(X[i].max())
   ans = st.sidebar.slider(f'Select {i} value', min_value,max_value)
   all_value.append(ans)
-st.write(all_value)
+#st.write(all_value)
+
 
 
 
