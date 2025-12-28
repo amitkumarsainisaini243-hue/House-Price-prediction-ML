@@ -1,6 +1,6 @@
 import streamlit as st
 import time
-import pandas as np
+import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 import pickle
@@ -18,6 +18,7 @@ for i in X:
   ans = st.sidebar.slider(f'Select {i} value')
   all_value.append(ans)
 st.write(all_value)
+
 
 
 
