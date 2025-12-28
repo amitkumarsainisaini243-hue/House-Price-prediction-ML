@@ -15,7 +15,8 @@ st.sidebar.title(' Select House feature')
 st.sidebar.image('https://therealdeal.com/wp-content/uploads/2021/03/CoreLogic-Home-Price-Reports-Highest-Growth-Since-2013.gif')
 all_value=[]
 for i in X:
-  asn = st.sidebar.slider(f'Select {i} value')
+  ans = st.sidebar.slider(f'Select {i} value')
   all_value.append(ans)
 st.write(all_value)
+
 
